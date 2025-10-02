@@ -19,7 +19,33 @@ Command-line 'Terminal User Interface' utility to view WSJT-X ADIF logs, look up
 ### Configuration:
   A simple .cfg file is used to identify your QRZ.COM account information and API number. Be sure to download the wsjtxlogviewer.cfg file from this repository and place it in the same location on your PC as the executable file. Open the .cfg file and edit it in a text editor like Notepad or Notepad++. If you do not have a QRZ.COM account, wsjtxlogviewer will still work but it will not be able to look up call information.
 
+Be sure not to change the order of these configuration lines in wsjtxlogviewer.cfg . Replace YOURCALL with your QRZ.COM callsign and save the file.
+
+  QRZ_XML_USERNAME=YOURCALL
+  QRZ_XML_PASSWORD=YOURPASSWORD
+  QRZ_XML_AGENT=WSJTXLogViewer/1.0 (YOURCALL)
+
+  QRZ_LOGBOOK_KEY=0000-0000-0000-0000
+  QRZ_LOG_AGENT=WSJTXLogViewer/1.0 (YOURCALL)
+
+  STATION_CALL=YOURCALL
+
 ### Usage:
-  wsjtxlogviewer -adif c:\users\yourusername\AppData\Local\WSJT-X\wsjtx_log.adi -cfg c:\wherever-you-keep-it\wsjtxlogviewer.cfg -v
+  wsjtxlogviewer -adif c:\users\yourusername\AppData\Local\WSJT-X\wsjtx_log.adi -cfg c:\wherever-you-keep-it\wsjtxlogviewer.cfg  (if you add -v to the the end of the command-line for verbose debug info)
+
+### Commands:
+  F1 Help         Display the key commands
+  F2 Lookup       Find QRZ info on the call where the arrow is located
+  F3 Upload       Upload the .adi file to QRZ.COM
+  F4 REPLACE=OFF  Toggle upload mode. If OFF, matching QSO data on QRZ is not replace. If ON, it is replaced with the data in the active .adi file
+  F5 Reload       Reload the .adi file. The display is automatically updated when a QSO is entered into the .adi file by WSJT-X
+  F6 Band         Step through the filter to display QSOs by BAND
+  F7 Mode         Step through the filter to display QSOs by MODE
+  F8 Date         Step through the filter to display QSOs by DATE
+  F9 Clear        Clear all filters and display log by last QSO entered at the top
+  F10 Quit        QUIT the program
+
+
+  
 
 
