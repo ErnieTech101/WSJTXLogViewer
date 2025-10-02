@@ -65,7 +65,7 @@ Be sure not to change the order of these configuration lines in wsjtxlogviewer.c
   STATION_CALL=YOURCALL
 
 ### Usage:
-  wsjtxlogviewer (Without arguments will use the .api and .cfg file in the directory where you put the wsjtxlogviewe.exe program.
+  wsjtxlogviewer (Without arguments will use the WSJTX_log.adi and wsjtxlogviewer.cfg file in the directory where you put the wsjtxlogviewe.exe program. To make it easy, just put the wsjtxlogviewer.cfg and wsjtxlogviewer.exe in the c:\users\YOU\AppData\local\WSJT-X directory where wsjtx_log.adi is.
 
   or
   
