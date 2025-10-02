@@ -1,5 +1,7 @@
 # A Windows PowerShell WSJT-X Log Viewer with QRZ.COM integration
 
+**NOTE:** When you go to the directory in this repository where the wsjtxlogviewer.exe resides, it will tell you it can't show the file because it is too large (That makes no sense, but anyway...) just download the RAW file. That will download the wsjtxlogviewer.exe. The file really isn't large but that's a thing with Github 
+
 Command-line 'Terminal User Interface' utility to view WSJT-X ADIF logs, look up callsigns via **QRZ.COM**, and upload QSOs to your **QRZ Logbook**. No GUI, just a fast and simple way to access your WSJT-X .adi file(s) without the need for a separate logbook.
 <pre>
 ------------------------------------------------------------------------------------------------------------------------
