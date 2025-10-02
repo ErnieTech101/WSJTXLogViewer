@@ -1,7 +1,7 @@
 # WSJT-X Log Viewer with QRZ.COM integration
 
 Command-line 'Terminal User Interface' utility to view WSJT-X ADIF logs, look up callsigns via **QRZ XML**, and upload QSOs to your **QRZ Logbook**. No GUI, just a fast and simple way to access your WSJT-X .adi file(s) without the need for a separate logbook.
-
+<pre>
 ------------------------------------------------------------------------------------------------------------------------
   CALL         DATE       TIME     BAND   MODE     FREQ       GRID
   ------------ ---------- -------- ------ -------- ---------- --------
@@ -30,14 +30,16 @@ Command-line 'Terminal User Interface' utility to view WSJT-X ADIF logs, look up
 ------------------------------------------------------------------------------------------------------------------------
 QRZ Upload:
 RESULT=OK
-LOGID=000000000
+LOGID=1328794528
 QTH: (n/a)
 Status: Upload OK
 ------------------------------------------------------------------------------------------------------------------------
 F1 Help  F2 Lookup  F3 Upload  F4 REPLACE=OFF  F5 Reload  F6 Band  F7 Mode  F8 Date  F9 Clear  F10 Quit
+  
 
 
-
+  
+</pre>
 ## Features
 - Sticky header + keybar (pure ASCII; no GUI)
 - QRZ XML lookup (name, QTH, grid, DXCC)
