@@ -13,13 +13,13 @@ Command-line 'Terminal User Interface' utility to view WSJT-X ADIF logs, look up
 - An Internet connection to use QRZ.COM call lookup and .adi uploading
 
 ## How to install, configure and use (Windows)  
-Install:
+# Install:
   Download the precompiled wsjtxlogviewer.exe executable and wsjtxlogviewer.cfg to your PC. Note that wsjtxlogviewer.exe will automatically find your wsjtx_log.adi file if it is located in the same directory, usally, C:\Users\yourusername\AppData\Local\WSJT-X. If you place the executable into any other location you'll need to start wsjtxlogviewer.exe with command-line arguments as follows -
 
-Configuration:
+# Configuration:
   A simple .cfg file is used to identify your QRZ.COM account information and API number. Be sure to download the wsjtxlogviewer.cfg file from this repository and place it in the same location on your PC as the executable file. Open the .cfg file and edit it in a text editor like Notepad or Notepad++. If you do not have a QRZ.COM account, wsjtxlogviewer will still work but it will not be able to look up call information.
 
-Usage:
+# Usage:
   wsjtxlogviewer -adif c:\users\yourusername\AppData\Local\WSJT-X\wsjtx_log.adi -cfg c:\wherever-you-keep-it\wsjtxlogviewer.cfg -v
 
 
