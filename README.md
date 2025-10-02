@@ -50,7 +50,7 @@ F1 Help  F2 Lookup  F3 Upload  F4 REPLACE=OFF  F5 Reload  F6 Band  F7 Mode  F8 D
 
 ## How to install, configure and use (Windows)  
 ### Install:
-  Download the precompiled wsjtxlogviewer.exe executable and wsjtxlogviewer.cfg to your PC. Note that wsjtxlogviewer.exe will automatically find your wsjtx_log.adi file if it is located in the same directory, usally, C:\Users\yourusername\AppData\Local\WSJT-X. If you place the executable into any other location you'll need to start wsjtxlogviewer.exe with command-line arguments as follows -
+  Download the precompiled **wsjtxlogviewer.exe** executable and the **wsjtxlogviewer.cfg** to your to your PC. Note that wsjtxlogviewer.exe will automatically find your wsjtx_log.adi file if it is located in the same directory, usally, C:\Users\yourusername\AppData\Local\WSJT-X. If you place the executable into any other location you'll need to start wsjtxlogviewer.exe with command-line arguments as follows -
 
 ### Configuration:
   A simple .cfg file is used to identify your QRZ.COM account information and API number. Be sure to download the wsjtxlogviewer.cfg file from this repository and place it in the same location on your PC as the executable file. Open the .cfg file and edit it in a text editor like Notepad or Notepad++. If you do not have a QRZ.COM account, wsjtxlogviewer will still work but it will not be able to look up call information.
@@ -67,7 +67,7 @@ Be sure not to change the order of these configuration lines in wsjtxlogviewer.c
   STATION_CALL=YOURCALL
 
 ### Usage:
-  wsjtxlogviewer (Without arguments will use the WSJTX_log.adi and wsjtxlogviewer.cfg file in the directory where you put the wsjtxlogviewe.exe program. To make it easy, just put the wsjtxlogviewer.cfg and wsjtxlogviewer.exe in the c:\users\YOU\AppData\local\WSJT-X directory where wsjtx_log.adi is.
+  wsjtxlogviewer (Without arguments will use the WSJTX_log.adi and wsjtxlogviewer.cfg file in the directory where you put the wsjtxlogviewe.exe program. To make it easy, just put the wsjtxlogviewer.cfg and wsjtxlogviewer.exe files in the c:\users\yourusername\AppData\local\WSJT-X directory where wsjtx_log.adi is.
 
   or
   
