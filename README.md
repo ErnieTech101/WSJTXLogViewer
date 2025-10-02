@@ -1,6 +1,6 @@
 # A Windows PowerShell WSJT-X Log Viewer with QRZ.COM integration
 
-Command-line 'Terminal User Interface' utility to view WSJT-X ADIF logs, look up callsigns via **QRZ.COML**, and upload QSOs to your **QRZ Logbook**. No GUI, just a fast and simple way to access your WSJT-X .adi file(s) without the need for a separate logbook.
+Command-line 'Terminal User Interface' utility to view WSJT-X ADIF logs, look up callsigns via **QRZ.COM**, and upload QSOs to your **QRZ Logbook**. No GUI, just a fast and simple way to access your WSJT-X .adi file(s) without the need for a separate logbook.
 <pre>
 ------------------------------------------------------------------------------------------------------------------------
   CALL         DATE       TIME     BAND   MODE     FREQ       GRID
