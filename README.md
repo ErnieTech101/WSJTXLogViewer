@@ -25,7 +25,7 @@ Be sure not to change the order of these configuration lines in wsjtxlogviewer.c
   QRZ_XML_PASSWORD=YOURPASSWORD
   QRZ_XML_AGENT=WSJTXLogViewer/1.0 (YOURCALL)
 
-  QRZ_LOGBOOK_KEY=0000-0000-0000-0000
+  QRZ_LOGBOOK_KEY=0000-0000-0000-0000</br>
   QRZ_LOG_AGENT=WSJTXLogViewer/1.0 (YOURCALL)
 
   STATION_CALL=YOURCALL
