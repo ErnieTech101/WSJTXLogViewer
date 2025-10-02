@@ -16,4 +16,4 @@ Command-line 'Terminal User Interface' utility to view WSJT-X ADIF logs, look up
 Download the precompiled wsjtxlogviewer.exe executable and wsjtxlogviewer.cfg to your PC. Note that wsjtxlogviewer.exe will automatically find your wsjtx_log.adi file if it is located in the same directory, usally, C:\Users\<youruser>\AppData\Local\WSJT-X. If you place the executable into any other location you'll need to start wsjtxlogviewer.exe with command-line arguments as follows
 
 Usage:
-  wsjtxlogviewer -adif c:\users\...\AppData\Local\WSJT-X\wsjtx_log.adi -cfg c:\wherever-you-keep-it -v
+  wsjtxlogviewer -adif c:\users\yourusername\AppData\Local\WSJT-X\wsjtx_log.adi -cfg c:\wherever-you-keep-it\wsjtxlogviewer.cfg -v
