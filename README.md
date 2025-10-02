@@ -34,16 +34,19 @@ Be sure not to change the order of these configuration lines in wsjtxlogviewer.c
   wsjtxlogviewer -adif c:\users\yourusername\AppData\Local\WSJT-X\wsjtx_log.adi -cfg c:\wherever-you-keep-it\wsjtxlogviewer.cfg  (if you add -v to the the end of the command-line for verbose debug info)
 
 ### Commands:
-  F1 Help         Display the key commands
-  F2 Lookup       Find QRZ info on the call where the arrow is located
-  F3 Upload       Upload the .adi file to QRZ.COM
-  F4 REPLACE=OFF  Toggle upload mode. If OFF, matching QSO data on QRZ is not replace. If ON, it is replaced with the data in the active .adi file
-  F5 Reload       Reload the .adi file. The display is automatically updated when a QSO is entered into the .adi file by WSJT-X
-  F6 Band         Step through the filter to display QSOs by BAND
-  F7 Mode         Step through the filter to display QSOs by MODE
-  F8 Date         Step through the filter to display QSOs by DATE
-  F9 Clear        Clear all filters and display log by last QSO entered at the top
-  F10 Quit        QUIT the program
+| Key | Label       | Description                                                                                                                                          |
+| --: | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  F1 | Help        | Display the key commands.                                                                                                                            |
+|  F2 | Lookup      | Find QRZ info on the call where the arrow is located.                                                                                                |
+|  F3 | Upload      | Upload the `.adi` file to QRZ.com.                                                                                                                   |
+|  F4 | REPLACE=OFF | Toggle upload mode. If **OFF**, matching QSO data on QRZ is **not replaced**. If **ON**, it **is replaced** with the data in the active `.adi` file. |
+|  F5 | Reload      | Reload the `.adi` file. The display is automatically updated when a QSO is entered into the `.adi` file by WSJT-X.                                   |
+|  F6 | Band        | Step through the filter to display QSOs by **BAND**.                                                                                                 |
+|  F7 | Mode        | Step through the filter to display QSOs by **MODE**.                                                                                                 |
+|  F8 | Date        | Step through the filter to display QSOs by **DATE**.                                                                                                 |
+|  F9 | Clear       | Clear all filters and display the log with the last QSO entered at the top.                                                                          |
+| F10 | Quit        | Quit the program.                                                                                                                                    |
+
 
 
   
