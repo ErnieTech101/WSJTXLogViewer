@@ -5,8 +5,8 @@ Command-line 'Terminal User Interface' utility to view WSJT-X ADIF logs, look up
 ------------------------------------------------------------------------------------------------------------------------
   CALL         DATE       TIME     BAND   MODE     FREQ       GRID
   ------------ ---------- -------- ------ -------- ---------- --------
-> W0RLD        2025-09-30 08:09:30 40m    FT8      7.075092   EM79
-  N7DNF        2025-09-30 07:55:00 40m    FT8      7.075099   DN55
+  W0RLD        2025-09-30 08:09:30 40m    FT8      7.075092   EM79
+> N7DNF        2025-09-30 07:55:00 40m    FT8      7.075099   DN55
   K7CAR        2025-09-30 07:45:15 40m    FT8      7.075099   DM37
   N3AZ         2025-09-30 07:39:15 40m    FT8      7.075300   EL09
   VE3YRG       2025-09-28 03:05:30 40m    FT8      7.075301   EN92
@@ -28,17 +28,13 @@ Command-line 'Terminal User Interface' utility to view WSJT-X ADIF logs, look up
   KQ4KME       2025-08-24 07:22:30 40m    FT8      7.075007   EM70
   N9SES        2025-08-24 07:17:30 40m    FT8      7.075007   EN61
 ------------------------------------------------------------------------------------------------------------------------
-QRZ Upload:
-RESULT=OK
-LOGID=1328794528
-QTH: (n/a)
-Status: Upload OK
+QRZ Result:
+CALL: N7DNF
+Name: Daniel C Knop
+QTH: Billings, MT, United States
+Status: Lookup OK
 ------------------------------------------------------------------------------------------------------------------------
 F1 Help  F2 Lookup  F3 Upload  F4 REPLACE=OFF  F5 Reload  F6 Band  F7 Mode  F8 Date  F9 Clear  F10 Quit
-  
-
-
-  
 </pre>
 ## Features
 - Sticky header + keybar (pure ASCII; no GUI)
