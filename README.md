@@ -31,7 +31,7 @@ Be sure not to change the order of these configuration lines in wsjtxlogviewer.c
   STATION_CALL=YOURCALL
 
 ### Usage:
-  wsjtxlogviewer -adif c:\users\yourusername\AppData\Local\WSJT-X\wsjtx_log.adi -cfg c:\wherever-you-keep-it\wsjtxlogviewer.cfg  (if you add -v to the the end of the command-line for verbose debug info)
+  wsjtxlogviewer -adif c:\users\yourusername\AppData\Local\WSJT-X\wsjtx_log.adi -cfg c:\wherever-you-keep-it\wsjtxlogviewer.cfg </br> (if you add -v to the the end of the command-line for verbose debug info)
 
 ### Commands:
 | Key | Label       | Description                                                                                                                                          |
