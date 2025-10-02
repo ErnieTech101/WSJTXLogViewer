@@ -1,4 +1,4 @@
-# WSJT-X Log Viewer with QRZ.COM integration
+# A Windows PowerShell WSJT-X Log Viewer with QRZ.COM integration
 
 Command-line 'Terminal User Interface' utility to view WSJT-X ADIF logs, look up callsigns via **QRZ.COML**, and upload QSOs to your **QRZ Logbook**. No GUI, just a fast and simple way to access your WSJT-X .adi file(s) without the need for a separate logbook.
 <pre>
@@ -37,10 +37,10 @@ Status: Lookup OK
 F1 Help  F2 Lookup  F3 Upload  F4 REPLACE=OFF  F5 Reload  F6 Band  F7 Mode  F8 Date  F9 Clear  F10 Quit
 </pre>
 ## Features
-- Sticky header + keybar (pure ASCII; no GUI)
-- QRZ XML lookup (name, QTH, grid, DXCC)
-- QRZ Logbook upload (INSERT, optional REPLACE)
-- Works great on Windows/macOS/Linux terminals
+- Pure ASCII, No GUI
+- QRZ.COM lookup (name, QTH, grid)
+- QRZ Logbook upload (INSERT, or optional REPLACE)
+- Works on Windows PowerShell
 
 ## Requirements
 - A QRZ API number (Will function without one, but Call lookup is disabled)
@@ -65,6 +65,10 @@ Be sure not to change the order of these configuration lines in wsjtxlogviewer.c
   STATION_CALL=YOURCALL
 
 ### Usage:
+  wsjtxlogviewer (Without arguments will use the .api and .cfg file in the directory where you put the wsjtxlogviewe.exe program.
+
+    </br>or</br>
+  
   wsjtxlogviewer -adif c:\users\yourusername\AppData\Local\WSJT-X\wsjtx_log.adi -cfg c:\wherever-you-keep-it\wsjtxlogviewer.cfg </br> (if you add -v to the the end of the command-line for verbose debug info)
 
 ### Commands:
