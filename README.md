@@ -21,12 +21,12 @@ Command-line 'Terminal User Interface' utility to view WSJT-X ADIF logs, look up
 
 Be sure not to change the order of these configuration lines in wsjtxlogviewer.cfg . Replace YOURCALL with your QRZ.COM callsign and save the file.
 
-  QRZ_XML_USERNAME=YOURCALL
-  QRZ_XML_PASSWORD=YOURPASSWORD
-  QRZ_XML_AGENT=WSJTXLogViewer/1.0 (YOURCALL)
+  QRZ_XML_USERNAME=YOURCALL</br>
+  QRZ_XML_PASSWORD=YOURPASSWORD</br>
+  QRZ_XML_AGENT=WSJTXLogViewer/1.0 (YOURCALL)</br>
 
   QRZ_LOGBOOK_KEY=0000-0000-0000-0000</br>
-  QRZ_LOG_AGENT=WSJTXLogViewer/1.0 (YOURCALL)
+  QRZ_LOG_AGENT=WSJTXLogViewer/1.0 (YOURCALL)</br>
 
   STATION_CALL=YOURCALL
 
