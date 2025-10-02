@@ -1,4 +1,4 @@
-# WSJT-X Log Viewer (ASCII TUI + QRZ)
+# WSJT-X Log Viewer with QRZ.COM integration
 
 Command-line 'Terminal User Interface' utility to view WSJT-X ADIF logs, look up callsigns via **QRZ XML**, and upload QSOs to your **QRZ Logbook**. No GUI, just a fast and simple way to access your WSJT-X .adi file(s) without the need for a separate logbook.
 
@@ -10,9 +10,24 @@ Command-line 'Terminal User Interface' utility to view WSJT-X ADIF logs, look up
 
 ## Requirements
 - A QRZ API number (Will function without one, but Call lookup is disabled)
+- An Internet connection to use QRZ.COM call lookup and .adi uploading
 
-## How to install and use  
-- You can use the pre-compiled wsjtxlogviewer.exe file in Windows 11 without the need to compile
-- In Linux or MacOS, you'll need to download the Go distributable and do the following:
--- dddd
+## How to install and use (Windows)  
+Download the precompiled wsjtxlogviewer.exe executable and wsjtxlogviewer.cfg to your PC. Note that wsjtxlogviewer.exe will automatically find your wsjtx_log.adi file if it is located in the same directory, usally, C:\Users\<youruser>\AppData\Local\WSJT-X. If you place the executable into any other location you'll need to start wsjtxlogviewer.exe with command-line arguments as follows
+
+Usage:
+  wsjtxlogviewer [-adif <path>] [-cfg <path>] [-v]
+
+Flags:
+  -adif string   Path to WSJT-X ADIF file (default: "./wsjtx_log.adi")
+  -cfg  string   Path to config file (default: first found of
+                 "./wsjtxlogviewer.cfg",
+                 Windows:  %AppData%\WSJTXLogViewer\wsjtxlogviewer.cfg
+                 Linux:    $XDG_CONFIG_HOME/wsjtx-log-viewer/wsjtxlogviewer.cfg
+                           or ~/.config/wsjtx-log-viewer/wsjtxlogviewer.cfg
+                 macOS:    ~/Library/Application Support/WSJTXLogViewer/wsjtxlogviewer.cfg)
+  -v             Verbose logging to stderr
+
+Example:
+
 
