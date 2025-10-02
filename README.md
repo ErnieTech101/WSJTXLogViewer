@@ -1,4 +1,13 @@
-# WSJTXLogViewer
-Terminal interface utility to view your WSJT-X QSO's made in real-time
+# WSJT-X Log Viewer (ASCII TUI + QRZ)
 
-Drop the WSJTXLogViewer.exe file in your 'C:\Users\user\AppData\Local\WSJT-X' directory. Double-click it or open it via the command line. It will read the wsjtx_log.adi file and display your QSO's in realtime. No GUI, it's a text utility.
+Command-line 'Terminal User Interface' utility to view WSJT-X ADIF logs, look up callsigns via **QRZ XML**, and upload QSOs to your **QRZ Logbook**.
+
+## Features
+- Sticky header + keybar (pure ASCII; no GUI)
+- QRZ XML lookup (name, QTH, grid, DXCC)
+- QRZ Logbook upload (INSERT, optional REPLACE)
+- Works great on Windows/macOS/Linux terminals
+
+## Requirements
+- 
+
