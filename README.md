@@ -19,14 +19,7 @@ Usage:
   wsjtxlogviewer [-adif <path>] [-cfg <path>] [-v]
 
 Flags:
-  -adif string   Path to WSJT-X ADIF file (default: "./wsjtx_log.adi")
-  -cfg  string   Path to config file (default: first found of
-                 "./wsjtxlogviewer.cfg",
-                 Windows:  %AppData%\WSJTXLogViewer\wsjtxlogviewer.cfg
-                 Linux:    $XDG_CONFIG_HOME/wsjtx-log-viewer/wsjtxlogviewer.cfg
-                           or ~/.config/wsjtx-log-viewer/wsjtxlogviewer.cfg
-                 macOS:    ~/Library/Application Support/WSJTXLogViewer/wsjtxlogviewer.cfg)
-  -v             Verbose logging to stderr
+  -adif string   Path to WSJT-X ADIF file (default: "./wsjtx_log.adi")    -cfg  string   Path to config file (default: first found of   "./wsjtxlogviewer.cfg",  -v   Verbose logging to stderr
 
 Example:
 
