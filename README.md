@@ -67,7 +67,7 @@ Be sure not to change the order of these configuration lines in wsjtxlogviewer.c
 ### Usage:
   wsjtxlogviewer (Without arguments will use the .api and .cfg file in the directory where you put the wsjtxlogviewe.exe program.
 
-    </br>or</br>
+  or
   
   wsjtxlogviewer -adif c:\users\yourusername\AppData\Local\WSJT-X\wsjtx_log.adi -cfg c:\wherever-you-keep-it\wsjtxlogviewer.cfg </br> (if you add -v to the the end of the command-line for verbose debug info)
 
